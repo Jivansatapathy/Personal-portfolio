@@ -10,15 +10,17 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Content Writer", "Python Developer" ];
   const period = 2000;
 
-useEffect(() => {
-  let ticker = setInterval(() => {
-    // your code here
-  }, [delta, tick]); // Include 'delta' and 'tick'
-  return () => { clearInterval(ticker) };
-}, [text]);
+  useEffect(() => {
+    // Set up the interval to call the tick function periodically
+    let ticker = setInterval(() => {
+      tick();  // Now tick() is being invoked
+    }, delta);  // Use delta directly here
+    return () => { clearInterval(ticker); };  // Clean up on component unmount or when dependencies change
+}, [text, delta]);  // Only re-run the effect when 'text' or 'delta' changes
 
   const tick = () => {
     let i = loopNum % toRotate.length;
