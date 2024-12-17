@@ -13,12 +13,12 @@ export const Banner = () => {
   const toRotate = [ "Web Developer", "Content Writer", "Python Developer" ];
   const period = 2000;
 
-    useEffect(() => {
-      let ticker = setInterval(() => 
-    }, [delta, tick]); // Include 'delta' and 'tick'
-
-    return () => { clearInterval(ticker) };
-  }, [text])
+useEffect(() => {
+  let ticker = setInterval(() => {
+    // your code here
+  }, [delta, tick]); // Include 'delta' and 'tick'
+  return () => { clearInterval(ticker) };
+}, [text]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
