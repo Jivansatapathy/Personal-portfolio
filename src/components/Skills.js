@@ -36,19 +36,19 @@ export const Skills = () => {
                         <p>Over the past few years, I have honed my abilities in Python development, content creation, and web application development. My focus on delivering efficient solutions, automating processes, and crafting compelling user-centric content sets me apart. I take pride in creating SEO-optimized, audience-engaging content while developing innovative, high-performing applications that solve real-world problems.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Python" />
                                 <h5>Python Development & Automation</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Content" />
                                 <h5>Content Writing & SEO Optimization</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Web" />
                                 <h5>Web Development & User-Centric Design</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Leader" />
                                 <h5>Leadership & Collaboration</h5>
                             </div>
                         </Carousel>
@@ -56,7 +56,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Descriptive" />
     </section>
   )
 }
