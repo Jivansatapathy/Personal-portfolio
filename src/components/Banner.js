@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to My Portfolio</span>
-                <h1>{`We do`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Design", "Digital Marketing", "Social Media Marketing" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`I do`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Design", "Digital Marketing", "Social Media Marketing" ]'><span className="wrap">{text}</span></span></h1>
                 <p>Hi, I'm Jivan Satapathy — a passionate web developer and digital creator. I specialize in designing and building custom websites, WordPress development, and SEO optimization. I love bringing ideas to life through clean code, creative design, and result-driven strategies. My goal is to help brands and individuals create a powerful and lasting online presence through thoughtful, high-quality digital experiences.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
