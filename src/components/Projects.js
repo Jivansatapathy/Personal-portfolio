@@ -1,12 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/krishi.png";
-import projImg2 from "../assets/img/Quote.png";
+import projImg2 from "../assets/img/Skill up.png";
 import projImg3 from "../assets/img/sakhyam.jpg";
 import projImg4 from "../assets/img/Medibot.png";
-import projImg5 from "../assets/img/valentine.png";
+import projImg5 from "../assets/img/Event.png";
 import projImg6 from "../assets/img/Hotelmain.png";
 import projImg7 from "../assets/img/college.png";
+import projImg8 from "../assets/img/Dahibara Express.png";
+import projImg9 from "../assets/img/Examys.png";
 import blogImg1 from "../assets/img/Ludo.png"; // Replace with your blog preview image
 import blogImg2 from "../assets/img/Scholarship.png"; // Replace with your blog preview image
 import blogImg3 from "../assets/img/Haryana.png"; // Replace with your blog preview image
@@ -23,9 +25,10 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Quote Generator app",
-      description: "JS & API integration",
+      title: "Skill Up Academy",
+      description: "An Educational website developed on wordpress.",
       imgUrl: projImg2,
+      link: "https://skillupacademy.in/",
     },
     {
       title: "Sakhyam - Club",
@@ -39,10 +42,24 @@ export const Projects = () => {
     },
 
     {
-      title: "Valentine app",
-      description: "Javascript (Design & Development)",
+      title: "8Ray Music",
+      description: "An wordpress website developed for event management and booking purpose.",
       imgUrl: projImg5,
-      link: "",
+      link: "https://8ray.group/",
+    },
+
+    {
+      title: "Dahibara Express",
+      description: "An custom made website developed for startup.",
+      imgUrl: projImg8,
+      link: "https://dahibaraexpress.com/",
+    },
+
+    {
+      title: "Examys",
+      description: "An custom made website developed for students to prepare for government exam.",
+      imgUrl: projImg9,
+      link: "https://www.examys.com/",
     },
 
     {
