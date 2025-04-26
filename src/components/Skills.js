@@ -35,13 +35,13 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Services</h2>
-                        <p>One Tale offers top-notch services to help businesses establish a strong digital presence.<br></br></p>
+                        <p>I offer top-notch services to help businesses establish a strong digital presence.<br></br></p>
 
-<p><strong>Website Designing:</strong> We create visually stunning and highly functional websites tailored to your business needs. Our designs are user-friendly, responsive, and optimized for performance, ensuring a seamless experience for your audience.<br></br></p>
+<p><strong>Website Designing:</strong> I create visually stunning and highly functional websites tailored to your business needs. My designs are user-friendly, responsive, and optimized for performance, ensuring a seamless experience for your audience.<br></br></p>
 
-<p><strong>Digital Marketing:</strong> Boost your online presence with our expert digital marketing solutions. From SEO and PPC campaigns to content marketing and email marketing, we help businesses increase visibility and drive engagement.<br></br></p>
+<p><strong>Digital Marketing:</strong> Boost your online presence with my expert digital marketing solutions. From SEO and PPC campaigns to content marketing and email marketing, I help businesses increase visibility and drive engagement.<br></br></p>
 
-<p><strong>Social Media Marketing:</strong> Maximize your brand’s reach with our strategic social media marketing services. We create engaging content, manage your profiles, and run targeted ad campaigns to grow your audience and enhance your brand’s impact.<br></br></p>
+<p><strong>Social Media Marketing:</strong> Maximize your brand’s reach with my strategic social media marketing services. I create engaging content, manage your profiles, and run targeted ad campaigns to grow your audience and enhance your brand’s impact.<br></br></p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
